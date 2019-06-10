@@ -1,0 +1,58 @@
+*{
+text-decoration: none;
+box-sizing: border-box;
+}
+body {
+ background-image: url("2.jpg");   
+}
+#first{
+background: linear-gradient(rgba(128, 128, 128, 0.521), rgba(0, 0, 255, 0.445));
+background-size: cover;
+background-repeat: no-repeat;
+padding-top: 100px;
+}
+.menu, .menu li{
+list-style: none;
+margin: 15px 0px;
+padding: 5px 0px;
+color: white;
+font-size: 18px;
+transition: 0.3s all ease-in-out;
+}
+.menu i{
+color: #e0d049;
+margin: 7px 10px;
+}
+.menu li:hover, .menu li:hover i{
+color: #e0d049;
+cursor: pointer;
+margin-left: 30px;
+display: flex !important;
+}
+.active{
+color: #e0d049 !important;
+cursor: pointer !important;
+margin-left: 30px !important;
+}
+.info{
+color: white;
+height: 400px;
+margin-top: 150px;
+font-size: 18px;
+overflow: auto;
+}
+span{
+color: #e0d049;
+}
+.butone{
+width: 30%;
+background-color: #e0d049;
+border-radius: 50px;
+padding: 10px 10px;
+color: rgba(0, 0, 0, 0.527);
+display: block;
+}
+.butone:hover{
+text-decoration: none;
+color: rgba(0, 0, 0, 0.527);
+}
